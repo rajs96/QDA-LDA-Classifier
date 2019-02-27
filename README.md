@@ -1,4 +1,4 @@
-## QDA/LDA Classifier
+# QDA/LDA Classifier
 
 Here, we have two programs: one that uses linear discriminant analysis to implement a bayes classifier, and one that uses quadratic discriminant analysis. Note that LDA is the same as QDA, with the exception that variance matrices for each class are the same. Because we obviously don't know the parameters (i.e. the mean and variance) for the conditional distribution of each class, we used unbiased estimators. Many of the implementation details can be found in section 4.3 of "Elements of Statistical Learning."
 
