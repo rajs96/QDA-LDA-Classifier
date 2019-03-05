@@ -1,3 +1,4 @@
+# coded in Python
 # script to test the classifiers on zip code data
 
 import numpy as np
@@ -34,7 +35,6 @@ y_train_pred_QDA = QDA_classifier(X_train_subset,QDA_estimates_train)
 QDA_estimates_test = compute_estimates(X_test_subset,y_test_subset)
 y_test_pred_QDA = QDA_classifier(X_test_subset, QDA_estimates_test)
 
-# low accuracy and errors because variance matrix has very small values, and so computed determinant is very small
 print("The training accuracy with QDA is: {}".format(accuracy_score(y_train_subset,y_train_pred_QDA)))
 print("The testing accuracy with QDA is: {}".format(accuracy_score(y_test_subset,y_test_pred_QDA)))
 

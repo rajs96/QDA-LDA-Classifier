@@ -1,3 +1,5 @@
+# function to compute estimates
+# coded in Python
 import numpy as np
 
 def compute_estimates(X_train,y_train,classifier='QDA'):

@@ -4,4 +4,4 @@ Here, we have two programs: one that uses linear discriminant analysis to implem
 
 There is also a test script titled "test.py" that uses a dataset of handwritten digits. We test the classifier on a subset of the data, namely those that are classified as "3" and "5". When we test the QDA classifier, the individual variance matrices are not invertible, and so Python reports incorrect results. Do not worry when using it, the QDA classifier will work properly as long as the variance matrices are invertible for each class in the dataset.
 
-This is mainly meant for people who want to understand how LDA and QDA are implemented from scratch in code. Looking at the in the Python scripts is really helpful in understanding exactly what's going on. 
+This is mainly meant for people who want to understand how LDA and QDA are implemented from scratch in code. Looking at the comments in the Python scripts is really helpful in understanding exactly what's going on. 

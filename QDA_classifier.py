@@ -1,3 +1,6 @@
+# function to compute QDA classifier
+# coded in Python
+
 import numpy as np
 # allows us to multiply more than one vector at once
 from numpy.linalg import multi_dot
